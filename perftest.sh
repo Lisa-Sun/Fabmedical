@@ -1,8 +1,8 @@
-host="fabmedical-[SUFFIX].documents.azure.com"
-username="fabmedical-[SUFFIX]"
-password="[PASSWORD]"
+host="fabmedical-562476.mongo.cosmos.azure.com"
+username="fabmedical-562476"
+password="E6nrYpyC4vOoCSlBvUvDAMU7dcl4HUothy7ZjBvrAtU8mI2MKEfFuZzJK0kBLRE7zZJ6Lo8VMjihLLmiRPeanw=="
 dbname="contentdb"
-port="10255"
+
 
 for i in {1..250}; do
     mongo $host:$port/$dbname \
