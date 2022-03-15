@@ -43,8 +43,9 @@ jobs:
         registry: ${{ env.containerRegistry }}
         repository: ${{ env.imageRepository }}
         tags: ${{ env.tag }},latest
-      - uses: Azure/aks-set-context@v1
-        with:
+    - name: This was suppose to be something
+      uses: Azure/aks-set-context@v1
+      with:
           creds: '${{ secrets.AZURE_CREDENTIALS }}'
           cluster-name: '${{ env.clusterName }}'
           resource-group: '${{ env.resourceGroupName }}'
