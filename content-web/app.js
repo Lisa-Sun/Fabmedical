@@ -7,7 +7,7 @@ const app = express();
 const appInsights = require("applicationinsights");
 appInsights.setup("41e259ba-2a02-42c2-9f31-ea865ae0289b");
 appInsights.start();
-
+// this is a dummy comment
 app.use(express.static(path.join(__dirname, 'dist/content-web')));
 const contentApiUrl = process.env.CONTENT_API_URL || "http://localhost:3001";
 
