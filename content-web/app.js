@@ -1,7 +1,7 @@
 const express = require('express');
 const http = require('http');
 const path = require('path');
-const request = require('requecst');
+const request = require('request');
 
 const app = express();
 const appInsights = require("applicationinsights");
